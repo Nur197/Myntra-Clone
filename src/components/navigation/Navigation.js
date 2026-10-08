@@ -70,6 +70,12 @@ const Navigation = (props) => {
             >
               HOME & LIVING
             </Button>
+            </Button><Button
+              onClick={() => { props.history.push('/homeandliving') }}
+              sx={{ my: 2, color: 'black', display: 'block', fontSize: '20px', paddingLeft: '10px', paddingRight: '10px' }}
+            >
+              NEEDS & GIFTING
+            </Button>
 
             {/* <Button
               onClick={handleCloseNavMenu}
