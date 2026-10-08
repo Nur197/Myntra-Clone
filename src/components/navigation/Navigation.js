@@ -69,7 +69,7 @@ const Navigation = (props) => {
               sx={{ my: 2, color: 'black', display: 'block', fontSize: '20px', paddingLeft: '10px', paddingRight: '10px' }}
             >
               HOME & LIVING
-            </Button>
+            
             </Button><Button
               onClick={() => { props.history.push('/homeandliving') }}
               sx={{ my: 2, color: 'black', display: 'block', fontSize: '20px', paddingLeft: '10px', paddingRight: '10px' }}
